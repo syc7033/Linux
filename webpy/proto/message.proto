@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Message {
+    optional int64 userid = 1;
+    optional int32 msgid = 2;
+    optional string string = 3;
+}
+    

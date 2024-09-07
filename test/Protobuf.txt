@@ -1,0 +1,20 @@
+Protobuf通讯协议
+转为二进制流了 传不出来
+
+optional int ID = 1[0]
+double
+float 
+int32 
+int64
+uint32
+uint64
+bool[false]
+string[空]
+bytes[空]
+
+限定修饰符(required、optional、repeated) + 数据类型(int duble float string bytes bool) + 字段名 = 字段编码值[字段默认值]
+
+optional int ID = 1
+optional double Dou = 1.33
+optional string str = "sdfkasdfjlkas"
+

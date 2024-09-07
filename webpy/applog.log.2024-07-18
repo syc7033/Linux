@@ -1,0 +1,7 @@
+2024-07-17 15:24:01|ERROR   |app.py:30|'cod'
+Traceback (most recent call last):
+  File "app.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "app.py", line 80, in POST
+    if result['cod'] != 0:
+KeyError: 'cod'

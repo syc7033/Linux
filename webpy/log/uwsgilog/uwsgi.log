@@ -1,0 +1,3710 @@
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 17:18:29 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38941 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55f221496b00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13842)
+spawned uWSGI worker 1 (pid: 13843, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 13844)
+  File "app.py", line 13
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+failed to compile app.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+gateway "uWSGI http 1" has been buried (pid: 13844)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 13843)...
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 17:22:21 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+Mon Jul 15 17:22:36 2024 - worker 1 (pid: 13843) is taking too much time to die...NO MERCY !!!
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:38941)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 17:22:38 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:44083 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55ca5e7dd9d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 13842)
+spawned uWSGI worker 1 (pid: 14201, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 14202)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ca5e7dd9d0 pid: 14201 (default app)
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 17:32:33 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+Mon Jul 15 17:34:34 2024 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 15 17:34:34 2024 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 17:34:36 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41341 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x556b75b48a60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14671)
+spawned uWSGI worker 1 (pid: 14672, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 14673)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556b75b48a60 pid: 14672 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 14673)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 17:39:16 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:40077 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55c9bad85a60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14960)
+spawned uWSGI worker 1 (pid: 14961, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 14962)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c9bad85a60 pid: 14961 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 14962)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 17:54:30 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39021 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x555596858a60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15164)
+spawned uWSGI worker 1 (pid: 15166, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 15167)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x555596858a60 pid: 15166 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 15167)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 18:01:49 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33669 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55b50f111a60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15711)
+spawned uWSGI worker 1 (pid: 15712, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 15713)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b50f111a60 pid: 15712 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 15713)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 15 18:10:03 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35241 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x563a1bee4a60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15993)
+spawned uWSGI worker 1 (pid: 15994, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 15995)
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563a1bee4a60 pid: 15994 (default app)
+[pid: 15994|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 731 bytes} [Mon Jul 15 18:11:45 2024] GET /1 => generated 8 bytes in 5 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 15994|app: 0|req: 2/2] 192.168.211.1 () {36 vars in 690 bytes} [Mon Jul 15 18:11:45 2024] GET /favicon.ico => generated 18 bytes in 3 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 1)
+[pid: 15994|app: 0|req: 3/3] 192.168.211.1 () {36 vars in 729 bytes} [Mon Jul 15 18:11:50 2024] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 15994|app: 0|req: 4/4] 192.168.211.1 () {36 vars in 689 bytes} [Mon Jul 15 18:11:50 2024] GET /favicon.ico => generated 18 bytes in 3 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 15995)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 15:05:30 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36941 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55d343653af0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22162)
+spawned uWSGI worker 1 (pid: 22163, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 22164)
+<web.db.MySQLDB object at 0x7f597211ccf8>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55d343653af0 pid: 22163 (default app)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 22164)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 15:21:04 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42811 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x559da6703af0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22719)
+spawned uWSGI worker 1 (pid: 22720, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 22721)
+<web.db.MySQLDB object at 0x7f37f6f9dd68>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x559da6703af0 pid: 22720 (default app)
+[pid: 22720|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 15:21:48 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 18 bytes in 18 msecs (HTTP/1.1 405) 2 headers in 72 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 22721)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 15:26:34 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36819 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+Python main interpreter initialized at 0x55d561696af0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 281376 bytes (274 KB) for 2 cores
+*** Operational MODE: threaded ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23075)
+spawned uWSGI worker 1 (pid: 23076, cores: 2)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 23077)
+<web.db.MySQLDB object at 0x7f304e3aed68>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d561696af0 pid: 23076 (default app)
+[pid: 23076|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 15:27:23 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 18 bytes in 7 msecs (HTTP/1.1 405) 2 headers in 72 bytes (2 switches on core 0)
+[pid: 23076|app: 0|req: 2/2] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 15:27:26 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 18 bytes in 11 msecs (HTTP/1.1 405) 2 headers in 72 bytes (2 switches on core 1)
+[pid: 23076|app: 0|req: 3/3] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 15:27:30 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 18 bytes in 3 msecs (HTTP/1.1 405) 2 headers in 72 bytes (2 switches on core 0)
+[pid: 23076|app: 0|req: 4/4] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 15:51:25 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 43291 bytes in 110 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 1)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 23077)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:37:02 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33165 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b8e5d82a90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 23634, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 23635)
+<web.db.MySQLDB object at 0x7fdd548ca208>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55b8e5d82a90 pid: 23634 (default app)
+[pid: 23634|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 643 bytes} [Tue Jul 16 16:37:44 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 38464 bytes in 178 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 23635)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 23634)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:33165)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:42:28 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40437 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5645b4075960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 23871, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 23872)
+<web.db.MySQLDB object at 0x7f86725db1d0>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5645b4075960 pid: 23871 (default app)
+[pid: 23871|app: 0|req: 1/1] 192.168.211.1 () {34 vars in 447 bytes} [Tue Jul 16 16:42:48 2024] GET / => generated 7 bytes in 4 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 23872)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 23871)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:40437)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:44:22 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:45143 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ab3f9e8960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 23960, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 23961)
+<web.db.MySQLDB object at 0x7f8b9ecd41d0>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ab3f9e8960 pid: 23960 (default app)
+[pid: 23960|app: 0|req: 1/1] 192.168.211.1 () {34 vars in 449 bytes} [Tue Jul 16 16:44:49 2024] GET / => generated 7 bytes in 6 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 23960|app: 0|req: 2/2] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 16:44:52 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 38465 bytes in 88 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+[pid: 23960|app: 0|req: 3/3] 192.168.211.1 () {34 vars in 508 bytes} [Tue Jul 16 16:47:00 2024] GET /login?userid=123456&pwd=123456 => generated 18 bytes in 5 msecs (HTTP/1.1 405) 2 headers in 73 bytes (2 switches on core 0)
+[pid: 23960|app: 0|req: 4/4] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 16:47:03 2024] POST /login?userid=123456&pwd=123456 => generated 49005 bytes in 36 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 23961)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 23960)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:45143)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:48:11 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42165 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561442102960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24111, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24112)
+<web.db.MySQLDB object at 0x7f789387a240>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561442102960 pid: 24111 (default app)
+[pid: 24111|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 16:48:18 2024] POST /login?userid=123456&pwd=123456 => generated 11 bytes in 3 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24112)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24111)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:42165)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:48:28 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40423 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561289c65960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24192, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24193)
+<web.db.MySQLDB object at 0x7f8ab3f95128>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561289c65960 pid: 24192 (default app)
+[pid: 24192|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 16:48:31 2024] POST /login?userid=123456&pwd=123456 => generated 11 bytes in 7 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24193)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24192)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:40423)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:49:10 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42363 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55706a234960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24249, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24250)
+<web.db.MySQLDB object at 0x7efdab39f128>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55706a234960 pid: 24249 (default app)
+[pid: 24249|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 527 bytes} [Tue Jul 16 16:49:13 2024] POST /login?userid=123456&pwd=123456 => generated 34825 bytes in 107 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24250)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24249)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:42363)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:49:57 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42631 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556490340960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24312, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24313)
+<web.db.MySQLDB object at 0x7f0dd3f0c128>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556490340960 pid: 24312 (default app)
+[pid: 24312|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 16:50:03 2024] POST /login?userid=123456&pwd=123456 => generated 28 bytes in 7 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24313)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24312)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:42631)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:52:58 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:36851 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563e39b82960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24414, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24415)
+<web.db.MySQLDB object at 0x7f9ccea9e1d0>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563e39b82960 pid: 24414 (default app)
+[pid: 24414|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 526 bytes} [Tue Jul 16 16:53:02 2024] POST /login?userid=123456&pwd=123456 => generated 49007 bytes in 124 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24415)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24414)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:36851)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:54:20 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:38385 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c68e4ab960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24479, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24480)
+<web.db.MySQLDB object at 0x7fceff9d0160>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c68e4ab960 pid: 24479 (default app)
+[pid: 24479|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 16:54:33 2024] POST /login?userid=123456&pwd=123456 => generated 49013 bytes in 120 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24480)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24479)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:38385)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:56:38 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:39379 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a489d2c960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24561, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24562)
+<web.db.MySQLDB object at 0x7fbf32570160>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a489d2c960 pid: 24561 (default app)
+[pid: 24561|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 16:56:41 2024] POST /login?userid=123456&pwd=123456 => generated 49105 bytes in 163 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24562)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24561)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:39379)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 16:57:04 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42705 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561178115960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24620, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24621)
+<web.db.MySQLDB object at 0x7f642adfb198>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561178115960 pid: 24620 (default app)
+[pid: 24620|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 527 bytes} [Tue Jul 16 16:57:09 2024] POST /login?userid=123456&pwd=123456 => generated 11 bytes in 12 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24621)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24620)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:42705)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 17:05:04 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:46127 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f433be7960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 24975, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 24976)
+<web.db.MySQLDB object at 0x7ff5639f3240>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55f433be7960 pid: 24975 (default app)
+[pid: 24975|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 17:05:08 2024] POST /login?userid=123456&pwd=123456 => generated 11 bytes in 39 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 24975|app: 0|req: 2/2] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 17:05:50 2024] POST /login?userid=123456&pwd=123456 => generated 11 bytes in 22 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 24976)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 24975)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:46127)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 17:06:15 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40611 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55d1c80a2960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 25082, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 25083)
+<web.db.MySQLDB object at 0x7f21aa71e208>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d1c80a2960 pid: 25082 (default app)
+[pid: 25082|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 17:06:22 2024] POST /login?userid=123456&pwd=123456 => generated 93 bytes in 31 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 25082|app: 0|req: 2/2] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 17:06:40 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 38465 bytes in 99 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 25083)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 25082)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:40611)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 17:08:15 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:44421 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560e53b62960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 23632)
+spawned uWSGI worker 1 (pid: 25232, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 25233)
+<web.db.MySQLDB object at 0x7f512dce21d0>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560e53b62960 pid: 25232 (default app)
+[pid: 25232|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 17:08:18 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 4 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 25233)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 19:54:41 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46825 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f735cbaa90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27190)
+spawned uWSGI worker 1 (pid: 27191, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 27192)
+<web.db.MySQLDB object at 0x7fe39ac4e198>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f735cbaa90 pid: 27191 (default app)
+[pid: 27191|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 528 bytes} [Tue Jul 16 20:12:41 2024] POST /login?userid=123456&pwd=123456 => generated 93 bytes in 33 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 27191|app: 0|req: 2/2] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:13:08 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 5 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 27192)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:16:08 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42461 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56117e89ba90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 27781, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 27782)
+<web.db.MySQLDB object at 0x7f5109ffb240>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56117e89ba90 pid: 27781 (default app)
+phonenum =  18945449295
+[pid: 27781|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:16:44 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 7 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+2024-07-16 20:21:59|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:21:59|DEBUG   |log.py:11|This is a applog Logger debug
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 577, in format
+    record.message = record.getMessage()
+  File "/usr/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 319, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 290, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 703, in processor
+    result = handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 280, in process
+    return self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 271, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 517, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 495, in handle_class
+    return tocall(*args)
+  File "app.py", line 34, in POST
+    if not Account.CheckPhonenum(phonenum):
+  File "./Account.py", line 14, in CheckPhonenum
+    log.logger.debug("phonenum = ", phonenum)
+Message: 'phonenum = '
+Arguments: ('18945449295',)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 577, in format
+    record.message = record.getMessage()
+  File "/usr/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 319, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 290, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 703, in processor
+    result = handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 280, in process
+    return self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 271, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 517, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 495, in handle_class
+    return tocall(*args)
+  File "app.py", line 34, in POST
+    if not Account.CheckPhonenum(phonenum):
+  File "./Account.py", line 14, in CheckPhonenum
+    log.logger.debug("phonenum = ", phonenum)
+Message: 'phonenum = '
+Arguments: ('18945449295',)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 577, in format
+    record.message = record.getMessage()
+  File "/usr/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 319, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 290, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 703, in processor
+    result = handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 280, in process
+    return self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 271, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 517, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 495, in handle_class
+    return tocall(*args)
+  File "app.py", line 34, in POST
+    if not Account.CheckPhonenum(phonenum):
+  File "./Account.py", line 15, in CheckPhonenum
+    log.logger.debug("手机号前三是 ", phonenum[:3])
+Message: '手机号前三是 '
+Arguments: ('189',)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/logging/__init__.py", line 994, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 840, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.6/logging/__init__.py", line 577, in format
+    record.message = record.getMessage()
+  File "/usr/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 319, in wsgi
+    result = self.handle_with_processors()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 290, in handle_with_processors
+    return process(self.processors)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 703, in processor
+    result = handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in process
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 686, in processor
+    return handler()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 278, in <lambda>
+    return p(lambda: process(processors))
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 280, in process
+    return self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 271, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 517, in _delegate
+    return handle_class(cls)
+  File "/usr/local/lib/python3.6/dist-packages/web/application.py", line 495, in handle_class
+    return tocall(*args)
+  File "app.py", line 34, in POST
+    if not Account.CheckPhonenum(phonenum):
+  File "./Account.py", line 15, in CheckPhonenum
+    log.logger.debug("手机号前三是 ", phonenum[:3])
+Message: '手机号前三是 '
+Arguments: ('189',)
+[pid: 27781|app: 0|req: 2/2] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:21:59 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 124 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 27781|app: 0|req: 3/3] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:23:19 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 10 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 27782)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 27781)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:42461)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:23:55 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:37887 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c528c8d960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 28176, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 28177)
+2024-07-16 20:23:58|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:23:58|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f61450c6128>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55c528c8d960 pid: 28176 (default app)
+[pid: 28176|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:23:59 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 8 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 28177)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28176)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:37887)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:25:14 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:34243 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ef513b3960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 28353, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 28354)
+2024-07-16 20:25:16|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:25:16|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7fe182bc7198>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ef513b3960 pid: 28353 (default app)
+11
+<built-in method isdigit of str object at 0x7fe18237cb70>
+False
+[pid: 28353|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 643 bytes} [Tue Jul 16 20:25:20 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 9 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 28354)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28353)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:34243)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:26:01 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42137 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557ef0bd1960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 28439, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 28440)
+2024-07-16 20:26:04|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:26:04|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f4e83c20320>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557ef0bd1960 pid: 28439 (default app)
+11
+<built-in method isdigit of str object at 0x7f4e833d5b70>
+189
+False
+[pid: 28439|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:26:04 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 7 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 28440)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28439)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:42137)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:26:50 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:43743 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5576559d7960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 28515, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 28516)
+2024-07-16 20:26:52|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:26:52|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f4caf8ea320>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5576559d7960 pid: 28515 (default app)
+11
+<built-in method isdigit of str object at 0x7f4caf09faf0>
+189
+False
+[pid: 28515|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:26:52 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 105 bytes in 51 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 28516)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28515)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:43743)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:28:09 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:35399 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56346d812960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 28586, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 28587)
+2024-07-16 20:28:12|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:28:12|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f2b0c77a208>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56346d812960 pid: 28586 (default app)
+[pid: 28586|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:28:12 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67502 bytes in 158 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 28587)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28586)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:35399)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:30:34 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41805 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x562c3bdfe960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 28657, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 28658)
+2024-07-16 20:30:37|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:30:37|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f137e52d080>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x562c3bdfe960 pid: 28657 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+[pid: 28657|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:30:38 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67428 bytes in 298 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 28658)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28657)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:41805)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:32:25 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:34327 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5565d22cd960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 28778, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 28779)
+2024-07-16 20:32:28|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:32:28|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f0576b02198>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5565d22cd960 pid: 28778 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:32:28.924054
+[pid: 28778|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:32:28 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67588 bytes in 190 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 28779)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28778)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:34327)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:33:11 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40329 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561d9d7cb960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 28930, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 28931)
+2024-07-16 20:33:14|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:33:14|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f033cb26080>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561d9d7cb960 pid: 28930 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:33:14.840503
+插入语句即将执行
+[pid: 28930|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:33:14 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67707 bytes in 176 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 28931)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 28930)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:40329)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:44:05 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:33533 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555682f6a960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 29122, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 29123)
+2024-07-16 20:44:08|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:44:08|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f6f39966080>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x555682f6a960 pid: 29122 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:44:08.445597
+插入语句即将执行
+phonenum 18945449295
+password 777528aa
+Config.DEFAULT_SECPASSWORD 123456
+nick syc
+sex 1
+idcard 230805200408197033
+Config.USER_STATUS_NORMAL 1
+createtime 2024-07-16 20:44:08.445597
+lastlogintime 2024-07-16 20:44:08.445597
+[pid: 29122|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:44:08 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67858 bytes in 178 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 29123)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 29122)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:33533)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:49:15 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:45729 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563e80821960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 29326, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 29327)
+2024-07-16 20:49:17|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:49:17|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f3b1b892080>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563e80821960 pid: 29326 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:49:27.927944
+[pid: 29326|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:49:27 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67608 bytes in 204 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 29327)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 29326)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:45729)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:53:28 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42999 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ec9c5df960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 29422, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 29423)
+2024-07-16 20:53:30|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:53:30|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f073cdbf080>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ec9c5df960 pid: 29422 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:53:36.758131
+[pid: 29422|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:53:36 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67472 bytes in 220 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 29423)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 29422)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:42999)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:54:38 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41553 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56363cce9960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 29506, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 29507)
+2024-07-16 20:54:41|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:54:41|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7fa3b66dd080>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56363cce9960 pid: 29506 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:54:41.591511
+[pid: 29506|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:54:41 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67246 bytes in 180 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 29507)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 29506)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:41553)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:55:27 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:46421 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5651e84f7960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 29580, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 29581)
+2024-07-16 20:55:29|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:55:29|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f81f9936080>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5651e84f7960 pid: 29580 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:55:29.724139
+插入语句执行完成
+[pid: 29580|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:55:29 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 11 bytes in 47 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 29581)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 29580)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:46421)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:56:03 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41855 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5636b5fa3960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 29632, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 29633)
+2024-07-16 20:56:05|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:56:05|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7fd993c39438>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5636b5fa3960 pid: 29632 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:56:05.901042
+[pid: 29632|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:56:05 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 67244 bytes in 196 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 29633)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 29632)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:41855)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Tue Jul 16 20:58:42 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:44153 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5613e9912960
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 27780)
+spawned uWSGI worker 1 (pid: 29712, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 29713)
+2024-07-16 20:58:44|DEBUG   |log.py:8|This is a root Logger debug
+2024-07-16 20:58:44|DEBUG   |log.py:11|This is a applog Logger debug
+<web.db.MySQLDB object at 0x7f80b89fd080>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5613e9912960 pid: 29712 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-16 20:58:46.232862
+插入语句执行完成
+[pid: 29712|app: 0|req: 1/1] 192.168.211.1 () {36 vars in 644 bytes} [Tue Jul 16 20:58:46 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 11 bytes in 75 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 13:03:31 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 13:06:28 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39329 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556cbd6bfb00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 32052)
+spawned uWSGI worker 1 (pid: 32053, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 32054)
+<web.db.MySQLDB object at 0x7f4326d0d080>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556cbd6bfb00 pid: 32053 (default app)
+phonenum 18945449295
+password 777528aa
+nick syc
+idcard 230805200408197033
+手机格式正确
+[pid: 32053|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 642 bytes} [Wed Jul 17 13:08:29 2024] POST /register?phonenum=18945449295&password=777528aa&nick=syc&sex=1&idcard=230805200408197033 => generated 93 bytes in 86 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+phonenum 15214663233
+password 777528aa
+nick xfl
+idcard 230822198011252563
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-17 13:09:39.975970
+[pid: 32053|app: 0|req: 2/2] 192.168.22.1 () {36 vars in 641 bytes} [Wed Jul 17 13:09:39 2024] POST /register?phonenum=15214663233&password=777528aa&nick=xfl&sex=1&idcard=230822198011252563 => generated 40667 bytes in 172 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 32054)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 32053)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:39329)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 13:11:04 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:43747 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5559692a88e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 32052)
+spawned uWSGI worker 1 (pid: 32421, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 32422)
+<web.db.MySQLDB object at 0x7fc16cd85278>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5559692a88e0 pid: 32421 (default app)
+phonenum 15214663233
+password 777528aa
+nick xfl
+idcard 230822198011252563
+手机格式正确
+[pid: 32421|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 642 bytes} [Wed Jul 17 13:11:09 2024] POST /register?phonenum=15214663233&password=777528aa&nick=xfl&sex=1&idcard=230822198011252563 => generated 93 bytes in 20 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+phonenum 13091652444
+password 777528aa
+nick sjy
+idcard 230822198011252563
+手机格式正确
+手机号格式正确
+身份证格式正确
+密码格式正确
+now 2024-07-17 13:12:22.096141
+插入用户执行成功
+[pid: 32421|app: 0|req: 2/2] 192.168.22.1 () {36 vars in 642 bytes} [Wed Jul 17 13:12:22 2024] POST /register?phonenum=13091652444&password=777528aa&nick=sjy&sex=1&idcard=230822198011252563 => generated 11 bytes in 29 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 32421|app: 0|req: 3/3] 192.168.22.1 () {36 vars in 526 bytes} [Wed Jul 17 13:13:37 2024] POST /login?userid=123456&pwd=123456 => generated 93 bytes in 20 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 32421|app: 0|req: 4/4] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 13:14:35 2024] POST /login?userid=18945449295&pwd=777528aa => generated 11 bytes in 9 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 32422)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 32421)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:43747)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:26:59 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:46769 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55656f68a8e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 32052)
+spawned uWSGI worker 1 (pid: 32961, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 32962)
+<web.db.MySQLDB object at 0x7fa5d02e49e8>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55656f68a8e0 pid: 32961 (default app)
+[pid: 32961|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:27:17 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40106 bytes in 72 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 32962)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 32961)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:46769)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:28:37 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40345 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ac8dc738e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 32052)
+spawned uWSGI worker 1 (pid: 33049, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33050)
+<web.db.MySQLDB object at 0x7f4f864c9588>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ac8dc738e0 pid: 33049 (default app)
+[pid: 33049|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:28:44 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40124 bytes in 127 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 33050)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:29:48 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37653 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ea848bcb00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 33196, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33197)
+<web.db.MySQLDB object at 0x7f6677757198>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ea848bcb00 pid: 33196 (default app)
+[pid: 33196|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:29:56 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40124 bytes in 128 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 33197)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 33196)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:37653)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:30:34 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:43333 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55716f41d8e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 33297, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33298)
+<web.db.MySQLDB object at 0x7fc65c48e2e8>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55716f41d8e0 pid: 33297 (default app)
+[pid: 33297|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 538 bytes} [Wed Jul 17 14:30:37 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40128 bytes in 119 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+now 2024-07-17 14:31:30.684152
+[pid: 33297|app: 0|req: 2/2] 192.168.22.1 () {36 vars in 642 bytes} [Wed Jul 17 14:31:30 2024] POST /register?phonenum=13091652441&password=777528aa&nick=sjs&sex=1&idcard=230822198011252563 => generated 11 bytes in 33 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 33298)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 33297)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:43333)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:32:51 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41065 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x561a517498e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 33409, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33410)
+<web.db.MySQLDB object at 0x7f369afbb320>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x561a517498e0 pid: 33409 (default app)
+userid 18945449295
+pwd 777528aa
+[pid: 33409|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:32:55 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40137 bytes in 91 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 33410)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 33409)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:41065)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:36:45 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42127 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55865baa78e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 33500, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33501)
+<web.db.MySQLDB object at 0x7fdb16c205c0>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55865baa78e0 pid: 33500 (default app)
+userid 18945449295
+pwd 777528aa
+密码存在
+密码正确
+[pid: 33500|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 539 bytes} [Wed Jul 17 14:36:58 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40194 bytes in 140 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 33501)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 33500)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:42127)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:41:26 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:46871 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x555624e458e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 33637, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33638)
+<web.db.MySQLDB object at 0x7f3fffecf2b0>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x555624e458e0 pid: 33637 (default app)
+userid 18945449295
+pwd 777528aa
+密码存在
+密码正确
+[pid: 33637|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:41:30 2024] POST /login?userid=18945449295&pwd=777528aa => generated 11 bytes in 28 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 33638)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 33637)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:46871)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:42:18 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:33593 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55badb6458e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 33724, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33725)
+<web.db.MySQLDB object at 0x7f1ee03752b0>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55badb6458e0 pid: 33724 (default app)
+userid 18945449295
+pwd 777528aa
+密码存在
+密码正确
+[pid: 33724|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 539 bytes} [Wed Jul 17 14:42:20 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40053 bytes in 126 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 33725)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 33724)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:33593)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:44:35 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:43443 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55fbf02cf8e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 33820, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33821)
+<web.db.MySQLDB object at 0x7f36b9535208>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55fbf02cf8e0 pid: 33820 (default app)
+userid 18945449295
+pwd 777528aa
+密码存在
+密码正确
+[pid: 33820|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:44:38 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40055 bytes in 141 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 33821)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 33820)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:43443)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:45:13 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:46497 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55dfe2fec8e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 33883, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 33884)
+<web.db.MySQLDB object at 0x7f58b68c0198>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55dfe2fec8e0 pid: 33883 (default app)
+userid 18945449295
+pwd 777528aa
+<web.db.ResultSet object at 0x7f58b5ea15c0>
+密码存在
+密码正确
+[pid: 33883|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:45:17 2024] POST /login?userid=18945449295&pwd=777528aa => generated 11 bytes in 30 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 33884)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 33883)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:46497)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:50:17 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40797 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55e833e0a8e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34155, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34156)
+<web.db.MySQLDB object at 0x7fd3d81fa208>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e833e0a8e0 pid: 34155 (default app)
+userid 18945449295
+pwd 777528aa
+<web.db.ResultSet object at 0x7fd3d77db630>
+密码存在
+密码正确
+[pid: 34155|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 539 bytes} [Wed Jul 17 14:50:21 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40054 bytes in 105 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34156)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34155)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:40797)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:53:19 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40041 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563e9941a8e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34210, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34211)
+<web.db.MySQLDB object at 0x7f09c2977208>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563e9941a8e0 pid: 34210 (default app)
+userid 18945449295
+pwd 777528aa
+<web.db.ResultSet object at 0x7f09c1f58630>
+密码存在
+密码正确
+[pid: 34210|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:53:20 2024] POST /login?userid=18945449295&pwd=777528aa => generated 40055 bytes in 123 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34211)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34210)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:40041)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:54:36 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:43649 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560f2796d8e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34273, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34274)
+<web.db.MySQLDB object at 0x7f5838d912e8>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x560f2796d8e0 pid: 34273 (default app)
+userid 18945449295
+pwd 777528aa
+<web.db.ResultSet object at 0x7f5838372630>
+密码存在
+密码正确
+开始执行登录处理逻辑
+登录时间为 2024-07-17 14:54:40.975077
+[pid: 34273|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:54:40 2024] POST /login?userid=18945449295&pwd=777528aa => generated 64656 bytes in 160 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34274)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34273)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:43649)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:55:19 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:34407 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c706e648e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34337, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34338)
+<web.db.MySQLDB object at 0x7f1d54aab048>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c706e648e0 pid: 34337 (default app)
+userid 18945449295
+pwd 777528aa
+<web.db.ResultSet object at 0x7f1d5408c588>
+密码存在
+密码正确
+开始执行登录处理逻辑
+登录时间为 2024-07-17 14:55:21.778743
+开始update
+[pid: 34337|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 14:55:21 2024] POST /login?userid=18945449295&pwd=777528aa => generated 64669 bytes in 158 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34338)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34337)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:34407)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 14:58:02 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:34559 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x560d144e88e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34403, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34404)
+<web.db.MySQLDB object at 0x7fe780302048>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x560d144e88e0 pid: 34403 (default app)
+userid 18945449295
+pwd 777528aa
+<web.db.ResultSet object at 0x7fe77f8e35f8>
+密码存在
+密码正确
+开始执行登录处理逻辑
+登录时间为 2024-07-17 14:58:06.191045
+开始update
+update完成
+[pid: 34403|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 539 bytes} [Wed Jul 17 14:58:06 2024] POST /login?userid=18945449295&pwd=777528aa => generated 11 bytes in 61 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34404)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34403)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:34559)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 15:04:14 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:35759 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557f1122f8e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34549, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34550)
+<web.db.MySQLDB object at 0x7f789337d2e8>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x557f1122f8e0 pid: 34549 (default app)
+userid 15214663233
+pwd 777528aa
+<web.db.ResultSet object at 0x7f789295d668>
+密码存在
+密码正确
+开始执行登录处理逻辑
+登录时间为 2024-07-17 15:04:41.870370
+[pid: 34549|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 15:04:41 2024] POST /login?userid=15214663233&pwd=777528aa => generated 11 bytes in 51 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34550)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34549)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:35759)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 15:05:16 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41225 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55b35c5088e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34661, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34662)
+<web.db.MySQLDB object at 0x7fae59b1e2e8>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b35c5088e0 pid: 34661 (default app)
+userid 15214663233
+pwd 777528aa
+<web.db.ResultSet object at 0x7fae590fe668>
+密码存在
+密码正确
+[pid: 34661|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 15:05:18 2024] POST /login?userid=15214663233&pwd=777528aa => generated 40041 bytes in 115 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34662)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34661)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:41225)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 15:08:32 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:37323 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563266de28e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34764, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34765)
+<web.db.MySQLDB object at 0x7f2c85fa32e8>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563266de28e0 pid: 34764 (default app)
+userid 15214663233
+pwd 777528aa
+<web.db.ResultSet object at 0x7f2c85583748>
+密码存在
+密码正确
+开始执行登录处理逻辑
+登录时间为 2024-07-17 15:08:38.022895
+[pid: 34764|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 15:08:37 2024] POST /login?userid=15214663233&pwd=777528aa => generated 11 bytes in 43 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34765)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34764)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 4 mapped to socket 0 (127.0.0.1:37323)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 15:23:32 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:38855 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563cf57848e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 34903, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 34904)
+<web.db.MySQLDB object at 0x7f4874c180f0>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563cf57848e0 pid: 34903 (default app)
+<web.db.ResultSet object at 0x7f48741d5da0>
+密码存在
+密码正确
+2024-07-17 15:24:01|ERROR   |app.py:30|'cod'
+Traceback (most recent call last):
+  File "app.py", line 28, in wrapper
+    return func(*args, **kwargs)
+  File "app.py", line 80, in POST
+    if result['cod'] != 0:
+KeyError: 'cod'
+[pid: 34903|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 15:24:01 2024] POST /login?userid=15214663233&pwd=777528aa => generated 4 bytes in 43 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+[pid: 34903|app: 0|req: 2/2] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 15:42:06 2024] POST /login?userid=15214663233&pwd=777528aa => generated 43428 bytes in 52 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 34904)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 34903)...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:38855)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 15:42:30 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:40825 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5647c66118e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 33195)
+spawned uWSGI worker 1 (pid: 35188, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 35189)
+<web.db.MySQLDB object at 0x7f1b7e695048>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5647c66118e0 pid: 35188 (default app)
+<web.db.ResultSet object at 0x7f1b7dc4fd30>
+密码存在
+密码正确
+登录时间为 2024-07-17 15:42:34.743471
+[pid: 35188|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Wed Jul 17 15:42:34 2024] POST /login?userid=15214663233&pwd=777528aa => generated 11 bytes in 32 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 35189)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Wed Jul 17 16:41:25 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46703 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5611aca72b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35777)
+spawned uWSGI worker 1 (pid: 35778, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 35779)
+<web.db.MySQLDB object at 0x7fdb41fd4320>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5611aca72b00 pid: 35778 (default app)
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 19 17:05:49 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+<web.db.ResultSet object at 0x7fdb41591d68>
+[pid: 35778|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 538 bytes} [Fri Jul 19 17:06:43 2024] POST /login?userid=15145497970&pwd=777528aa => generated 93 bytes in 621 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+<web.db.ResultSet object at 0x7fdb41591eb8>
+[pid: 35778|app: 0|req: 2/2] 192.168.22.1 () {36 vars in 540 bytes} [Fri Jul 19 17:07:05 2024] POST /login?userid=18945449295&pwd=777528aa => generated 11 bytes in 97 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 19 17:09:55 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+<web.db.ResultSet object at 0x7fdb41591f28>
+[pid: 35778|app: 0|req: 3/3] 192.168.22.1 () {36 vars in 540 bytes} [Fri Jul 19 17:10:12 2024] POST /login?userid=18945449295&pwd=777528aa => generated 11 bytes in 52 msecs (HTTP/1.1 200) 0 headers in 19 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 35779)
+...brutally killing workers...
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/syc/pyDir/webpy
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 3 mapped to socket 0 (127.0.0.1:46703)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 19 17:12:34 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:42425 (port auto-assigned) fd 4
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5601271e78e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 35777)
+spawned uWSGI worker 1 (pid: 51204, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 51205)
+<web.db.MySQLDB object at 0x7fa38e660048>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5601271e78e0 pid: 51204 (default app)
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 19 17:12:38 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+Fri Jul 19 17:14:58 2024 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 19 17:15:12 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:32979 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56416f2c5b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 51546)
+spawned uWSGI worker 1 (pid: 51547, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 51548)
+<web.db.MySQLDB object at 0x7f243f740048>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56416f2c5b00 pid: 51547 (default app)
+<web.db.ResultSet object at 0x7f243dcfddd8>
+[pid: 51547|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 540 bytes} [Fri Jul 19 17:15:24 2024] POST /login?userid=18945449295&pwd=777528aa => generated 11 bytes in 46 msecs (HTTP/1.1 200) 1 headers in 108 bytes (2 switches on core 0)
+[pid: 51547|app: 0|req: 2/2] 192.168.22.1 () {38 vars in 612 bytes} [Fri Jul 19 18:01:51 2024] POST /login?userid=18945449295&pwd=777528aa => generated 53124 bytes in 120 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+[pid: 51547|app: 0|req: 3/3] 192.168.22.1 () {38 vars in 612 bytes} [Fri Jul 19 18:01:58 2024] POST /login?userid=18945449295&pwd=777528aa => generated 53124 bytes in 34 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+[pid: 51547|app: 0|req: 4/4] 192.168.22.1 () {38 vars in 612 bytes} [Fri Jul 19 18:02:20 2024] POST /login?userid=15214663233&pwd=777528aa => generated 53124 bytes in 20 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 51548)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 19 18:07:38 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:34823 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x5576d2269b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 52378)
+spawned uWSGI worker 1 (pid: 52379, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 52380)
+<web.db.MySQLDB object at 0x7fd743a7a048>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5576d2269b00 pid: 52379 (default app)
+<web.db.ResultSet object at 0x7fd742037da0>
+[pid: 52379|app: 0|req: 1/1] 192.168.22.1 () {38 vars in 612 bytes} [Fri Jul 19 18:08:05 2024] POST /login?userid=15214663233&pwd=777528aa => generated 11 bytes in 47 msecs (HTTP/1.1 200) 1 headers in 108 bytes (2 switches on core 0)
+[pid: 52379|app: 0|req: 2/2] 192.168.22.1 () {38 vars in 611 bytes} [Fri Jul 19 18:08:23 2024] POST /login?userid=15214663233&pwd=777528aa => generated 53124 bytes in 90 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 52380)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 19 18:09:39 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38351 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55eedc64bb00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 52717)
+spawned uWSGI worker 1 (pid: 52718, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 52719)
+<web.db.MySQLDB object at 0x7f3981a83b38>
+2024-07-19 18:09:40|DEBUG   |app.py:34|session <web.session.Session object at 0x7f398127aba8>
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55eedc64bb00 pid: 52718 (default app)
+<web.db.ResultSet object at 0x7f398100ec18>
+[pid: 52718|app: 0|req: 1/1] 192.168.22.1 () {38 vars in 612 bytes} [Fri Jul 19 18:09:45 2024] POST /login?userid=15214663233&pwd=777528aa => generated 11 bytes in 84 msecs (HTTP/1.1 200) 1 headers in 108 bytes (2 switches on core 0)
+<web.db.ResultSet object at 0x7f398100ecc0>
+[pid: 52718|app: 0|req: 2/2] 192.168.22.1 () {38 vars in 612 bytes} [Fri Jul 19 18:10:20 2024] POST /login?userid=18945449295&pwd=777528aa => generated 11 bytes in 49 msecs (HTTP/1.1 200) 1 headers in 108 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 52719)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Sun Jul 28 21:13:38 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44685 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56353c223b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4003)
+spawned uWSGI worker 1 (pid: 4005, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 12 ***
+spawned uWSGI http 1 (pid: 4006)
+Traceback (most recent call last):
+  File "app.py", line 9, in <module>
+    import Shop
+  File "./Shop.py", line 5, in <module>
+    import Lobby
+  File "./Lobby.py", line 3, in <module>
+    from proto.general_pb2 import Mail
+  File "./proto/general_pb2.py", line 21, in <module>
+    create_key=_descriptor._internal_create_key,
+AttributeError: module 'google.protobuf.descriptor' has no attribute '_internal_create_key'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.26 (64bit) on [Sun Jul 28 21:16:36 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.26 (64bit) on [Sun Jul 28 21:17:16 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8081).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.26 (64bit) on [Sun Jul 28 21:20:20 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8081).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.26 (64bit) on [Sun Jul 28 21:20:36 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42345 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f720716b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4754)
+spawned uWSGI worker 1 (pid: 4761, cores: 1)
+*** Stats server enabled on 127.0.0.1:8082 fd: 12 ***
+spawned uWSGI http 1 (pid: 4762)
+Traceback (most recent call last):
+  File "app.py", line 9, in <module>
+    import Shop
+  File "./Shop.py", line 5, in <module>
+    import Lobby
+  File "./Lobby.py", line 3, in <module>
+    from proto.general_pb2 import Mail
+  File "./proto/general_pb2.py", line 21, in <module>
+    create_key=_descriptor._internal_create_key,
+AttributeError: module 'google.protobuf.descriptor' has no attribute '_internal_create_key'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+Sun Jul 28 21:21:35 2024 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.26 (64bit) on [Sun Jul 28 21:21:38 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43979 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556b050bfb00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4901)
+spawned uWSGI worker 1 (pid: 4903, cores: 1)
+*** Stats server enabled on 127.0.0.1:8082 fd: 12 ***
+spawned uWSGI http 1 (pid: 4904)
+Traceback (most recent call last):
+  File "app.py", line 9, in <module>
+    import Shop
+  File "./Shop.py", line 5, in <module>
+    import Lobby
+  File "./Lobby.py", line 3, in <module>
+    from proto.general_pb2 import Mail
+  File "./proto/general_pb2.py", line 21, in <module>
+    create_key=_descriptor._internal_create_key,
+AttributeError: module 'google.protobuf.descriptor' has no attribute '_internal_create_key'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** Starting uWSGI 2.0.26 (64bit) on [Sun Jul 28 21:22:17 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37809 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c85d353b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5003)
+spawned uWSGI worker 1 (pid: 5005, cores: 1)
+*** Stats server enabled on 127.0.0.1:8082 fd: 12 ***
+spawned uWSGI http 1 (pid: 5006)
+<web.db.MySQLDB object at 0x7f9868fedb38>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c85d353b00 pid: 5005 (default app)
+[pid: 5005|app: 0|req: 1/1] 192.168.22.1 () {36 vars in 638 bytes} [Sun Jul 28 21:23:04 2024] POST /register?phonenum=18404545054&password=777528a&nick=ss&sex=1&idcard=230822198011252563 => generated 105 bytes in 30 msecs (HTTP/1.1 200) 1 headers in 108 bytes (2 switches on core 0)
+now 2024-07-28 21:23:36.414011
+[pid: 5005|app: 0|req: 2/2] 192.168.22.1 () {38 vars in 712 bytes} [Sun Jul 28 21:23:36 2024] POST /register?phonenum=18404545054&password=777528aa&nick=ss&sex=1&idcard=230822198011252563 => generated 11 bytes in 16 msecs (HTTP/1.1 200) 1 headers in 108 bytes (2 switches on core 0)
+<web.db.ResultSet object at 0x7f9868578978>
+[pid: 5005|app: 0|req: 3/3] 192.168.22.1 () {38 vars in 612 bytes} [Sun Jul 28 21:25:36 2024] POST /login?userid=18404545054&pwd=777528aa => generated 11 bytes in 7 msecs (HTTP/1.1 200) 1 headers in 108 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5006)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 21:00:06 2024] ***
+compiled with version: 7.5.0 on 15 July 2024 05:58:26
+os: Linux-5.4.0-150-generic #167~18.04.1-Ubuntu SMP Wed May 24 00:51:42 UTC 2023
+nodename: syc-virtual-machine
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/syc/pyDir/webpy
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/syc/pyDir/webpy
+your processes number limit is 15400
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8081 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46223 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Mar 10 2023, 16:46:00)  [GCC 8.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55bba0aa49d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 203152 bytes (198 KB) for 1 cores
+*** Operational MODE: single process ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6447)
+spawned uWSGI worker 1 (pid: 6448, cores: 1)
+*** Stats server enabled on 127.0.0.1:8082 fd: 12 ***
+spawned uWSGI http 1 (pid: 6449)
+<web.db.MySQLDB object at 0x7f1f68d44400>
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55bba0aa49d0 pid: 6448 (default app)
+Mon Jul 29 21:06:17 2024 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
